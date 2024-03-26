@@ -1,0 +1,11 @@
+train: C:/Users/hanbin/Desktop/code_A/yolov5/dataset/SIGN_W/train/images
+val: C:/Users/hanbin/Desktop/code_A/yolov5/dataset/SIGN_W/valid/images
+nc: 1
+names: ['sign']
+
+roboflow:
+  workspace: project-lvtjv
+  project: sign_w
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-lvtjv/sign_w/dataset/1

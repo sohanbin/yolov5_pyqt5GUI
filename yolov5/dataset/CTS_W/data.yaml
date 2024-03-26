@@ -1,0 +1,13 @@
+train: C:/Users/hanbin/Desktop/code_A/yolov5/dataset/CTS_W/train/images
+val: C:/Users/hanbin/Desktop/code_A/yolov5/dataset/CTS_W/valid/images
+
+
+nc: 3
+names: ['TL', 'car', 'sign']
+
+roboflow:
+  workspace: project-lvtjv
+  project: cts-lyvky
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-lvtjv/cts-lyvky/dataset/1
